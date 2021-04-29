@@ -31,6 +31,9 @@ export default class Login extends React.Component {
 
     }
 
+    goBack(){
+        window.location.href = '/'
+    }
 
     render() {
 
@@ -74,7 +77,9 @@ export default class Login extends React.Component {
                             </div>
                             <div>
                             <button className="button_style" onClick={() => this.onSubmit()} >Login</button>
+                            <button className="button_style" onClick={() => this.goBack()}>Cancle</button>
                             </div>
+                            
                             <div className="signup">
                                 {this.state.login_result}
                             </div>

@@ -39,6 +39,10 @@ export default class Register extends React.Component {
   
     }
 
+    goBack(){
+        window.location.href = '/'
+    }
+
     gotoLoginPage(){
 
         window.location.href = '/login';
@@ -90,6 +94,7 @@ export default class Register extends React.Component {
                             </div>
                             <div>
                             <button  className="button_style" onClick={() => this.onSubmit()} >Create User</button>
+                            <button className="button_style" onClick={() => this.goBack()}>Cancle</button>
                             </div>
                             <div  className="signup">
                             Already a member?

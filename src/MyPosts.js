@@ -90,11 +90,11 @@ export default class MyPost extends React.Component {
          .then((response) =>{
 
             console.log(response.data)
-            if(response.data.length !== 0){
+            
                 this.setState({
                     posts : response.data
                 })
-            }
+            
          })
          .catch(error => console.error(error));
 

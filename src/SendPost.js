@@ -168,7 +168,7 @@ export default class SendPost extends React.Component {
                             </div>
                     </div>
                     <div className ="box4">
-                        <div>hi</div>
+                       
                     </div>
                 </div> 
             </div>

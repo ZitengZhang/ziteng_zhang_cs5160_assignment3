@@ -87,11 +87,11 @@ export default class MyComments extends React.Component {
          .then((response) =>{
 
             console.log(response.data)
-            if(response.data.length !== 0){
+            
                 this.setState({
                     comments : response.data
                 })
-            }
+            
          })
          .catch(error => console.error(error));
 
@@ -153,7 +153,7 @@ export default class MyComments extends React.Component {
 
                     <div className = "box1">
                         <div>
-                            {this.state.username}
+                            <b className="username_style">{this.state.username}</b>
                         
                             <button className="button_style" onClick={() => this.logout()}>Logout</button>
                         </div>

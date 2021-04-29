@@ -95,6 +95,23 @@
     box-shadow: 5px 0px grey
 }
 
+
+.post:hover{
+
+    display: flex;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    cursor: pointer;
+    background-color: rgb(223, 180, 193);
+    border: solid 2px black;
+    padding: 2px;
+    width: 1300px;
+    height: 72px;
+    margin: 1px;
+    box-shadow: 8px 0px grey
+}
+
 .title{
     font-size: 22px;
     overflow: hidden;
@@ -142,6 +159,7 @@
 }
 .hasPost:hover{
     visibility: visible;
+    cursor: pointer;
     background-color: rgb(166, 224, 58);
     margin: 10px;
     font-size: 20px;
@@ -176,6 +194,7 @@
 .button_style:hover{
 
 
+    cursor: pointer;
     background-color: rgb(166, 224, 58);
     margin: 10px;
     font-size: 20px;
@@ -185,6 +204,7 @@
 .button1_style:hover{
 
 
+    cursor: pointer;
     background-color: rgb(166, 224, 58);
     margin: 5px;
     font-size: 15px;
